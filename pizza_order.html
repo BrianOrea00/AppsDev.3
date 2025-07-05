@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pizza Order form</h1>
+</body>
+<form>
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="cnum">Contact Number:</label>
+    <input type="number" id="cnum" name="cnum"><br><br>
+    <label for="ddate">Delivery Date:</label>
+    <input type="date" id="ddate" name="ddate"><br><br>
+
+    <div><strong>Sizes:</strong><br>
+        <input type="radio" id="small" name="size" value="small">
+        <label for="small">Small</label>
+        <input type="radio" id="medium" name="size" value="medium">
+        <label for="medium">Medium</label>
+        <input type="radio" id="large" name="size" value="large">
+        <label for="large">Large</label><br><br>
+    </div>
+    <div><strong>Flavor:</strong><br>
+        <input type="checkbox" id="Hawaiian" name="Flavor" value="Hawaiian">
+        <label for="Hawaiian">Hawaiian(Php.150.00)</label>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select><br>
+
+        <input type="checkbox" id="Pepperoni" name="Flavor" value="Pepperoni">
+        <label for="Pepperoni">Pepperoni(Php.140.00)</label>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select><br>
+
+        <input type="checkbox" id="Vegetable" name="Flavor" value="Vegetable">
+        <label for="Vegetable">Vegetable(Php.153.00)</label>
+        <select>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select><br><br>
+    </div>
+    <div>
+    <label for="card">Credit Card Number:</label>
+    <input type="number" name="card" id="card"><br>
+    <label for="pin">PIN:</label>
+    <input type="password" name="pin" id="pin"><br><br>
+    </div>
+    
+    <label for="add">Additional Note:</label><br>
+    <textarea name="add" id="add"></textarea><br><br>
+
+    <input type="submit"value="submit"><br>
+
+</form>
+</html>
